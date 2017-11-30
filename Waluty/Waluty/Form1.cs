@@ -33,53 +33,89 @@ namespace Waluty
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Double Polski_Zloty = Double.Parse(textBox1.Text);
-            if (cmbWaluty.Text == "Euro")
+            try
             {
-                label1.Text = System.Convert.ToString(Polski_Zloty * Euro +"PLN");
-            }
-
-            if (cmbWaluty.Text == "Funt")
-            {
-
-                label1.Text = System.Convert.ToString(Polski_Zloty * Funt +"PLN");
-            }
-
-            if (cmbWaluty.Text == "Frank Szwajcarski")
-            {
-                label1.Text = System.Convert.ToString(Polski_Zloty * Frank_Szwajcarski + "PLN");
-
-            }
-
-            if (cmbWaluty.Text == "Dolar Amerykanski")
+                Double Polski_Zloty = Double.Parse(textBox1.Text);
+                if (cmbWaluty.Text == "Euro")
                 {
-                label1.Text = System.Convert.ToString(Polski_Zloty * Dolar_Amerykanski + "PLN");
+                    label1.Text = System.Convert.ToString(Polski_Zloty * Euro + "PLN");
+                }
+
+                if (cmbWaluty.Text == "Funt")
+                {
+
+                    label1.Text = System.Convert.ToString(Polski_Zloty * Funt + "PLN");
+                }
+
+                if (cmbWaluty.Text == "Frank Szwajcarski")
+                {
+                    label1.Text = System.Convert.ToString(Polski_Zloty * Frank_Szwajcarski + "PLN");
+
+                }
+
+                if (cmbWaluty.Text == "Dolar Amerykanski")
+                {
+                    label1.Text = System.Convert.ToString(Polski_Zloty * Dolar_Amerykanski + "PLN");
+                }
+            }
+
+            catch (FormatException fEx)
+            {
+                MessageBox.Show("Podaj wartosc liczbowa!");
+            }
+
+            catch (OverflowException OverEx)
+            {
+                MessageBox.Show("Podaj wartosc liczbowa!");
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show("Uzywaj , zamiast .");
+
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Double Polski_Zloty = Double.Parse(textBox1.Text); ;
-            if (cmbWaluty.Text == "Euro")
+            try
             {
-                label1.Text = System.Convert.ToString(Polski_Zloty / Euro + "Euro");
+                Double Polski_Zloty = Double.Parse(textBox1.Text); ;
+                if (cmbWaluty.Text == "Euro")
+                {
+                    label1.Text = System.Convert.ToString(Polski_Zloty / Euro + "Euro");
+                }
+
+                if (cmbWaluty.Text == "Funt")
+                {
+
+                    label1.Text = System.Convert.ToString(Polski_Zloty / Funt + "GBP");
+                }
+
+                if (cmbWaluty.Text == "Frank Szwajcarski")
+                {
+                    label1.Text = System.Convert.ToString(Polski_Zloty / Frank_Szwajcarski + "CHF");
+
+                }
+
+                if (cmbWaluty.Text == "Dolar Amerykanski")
+                {
+                    label1.Text = System.Convert.ToString(Polski_Zloty / Dolar_Amerykanski + "USD");
+                }
             }
 
-            if (cmbWaluty.Text == "Funt")
+            catch (FormatException fEx)
             {
-
-                label1.Text = System.Convert.ToString(Polski_Zloty / Funt + "GBP");
+                MessageBox.Show("Podaj wartosc liczbowa!");
             }
 
-            if (cmbWaluty.Text == "Frank Szwajcarski")
+            catch (OverflowException OverEx)
             {
-                label1.Text = System.Convert.ToString(Polski_Zloty / Frank_Szwajcarski + "CHF");
-
+                MessageBox.Show("Podaj wartosc liczbowa!");
             }
-
-            if (cmbWaluty.Text == "Dolar Amerykanski")
+            catch (Exception Ex)
             {
-                label1.Text = System.Convert.ToString(Polski_Zloty / Dolar_Amerykanski + "USD");
+                MessageBox.Show("Uzywaj , zamiast .");
+
             }
 
 
