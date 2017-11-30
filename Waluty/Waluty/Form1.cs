@@ -56,5 +56,33 @@ namespace Waluty
                 label1.Text = System.Convert.ToString(Polski_Zloty * Dolar_Amerykanski + "PLN");
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Double Polski_Zloty = Double.Parse(textBox1.Text); ;
+            if (cmbWaluty.Text == "Euro")
+            {
+                label1.Text = System.Convert.ToString(Polski_Zloty / Euro + "Euro");
+            }
+
+            if (cmbWaluty.Text == "Funt")
+            {
+
+                label1.Text = System.Convert.ToString(Polski_Zloty / Funt + "GBP");
+            }
+
+            if (cmbWaluty.Text == "Frank Szwajcarski")
+            {
+                label1.Text = System.Convert.ToString(Polski_Zloty / Frank_Szwajcarski + "CHF");
+
+            }
+
+            if (cmbWaluty.Text == "Dolar Amerykanski")
+            {
+                label1.Text = System.Convert.ToString(Polski_Zloty / Dolar_Amerykanski + "USD");
+            }
+
+
+        }
     }
 }
