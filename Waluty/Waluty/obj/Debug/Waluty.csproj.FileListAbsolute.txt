@@ -18,3 +18,13 @@ D:\Programy\Visual C#\Waluty\projekt-pa-jacekbrzozowski-master\Waluty\Waluty\obj
 D:\Programy\Visual C#\Waluty\projekt-pa-jacekbrzozowski-master\Waluty\Waluty\obj\Debug\Waluty.csproj.CoreCompileInputs.cache
 D:\Programy\Visual C#\Waluty\projekt-pa-jacekbrzozowski-master\Waluty\Waluty\obj\Debug\Waluty.exe
 D:\Programy\Visual C#\Waluty\projekt-pa-jacekbrzozowski-master\Waluty\Waluty\obj\Debug\Waluty.pdb
+D:\Programy\Ap\projekt-pa-jacekbrzozowski-master\Waluty\Waluty\bin\Debug\Waluty.exe.config
+D:\Programy\Ap\projekt-pa-jacekbrzozowski-master\Waluty\Waluty\bin\Debug\Waluty.exe
+D:\Programy\Ap\projekt-pa-jacekbrzozowski-master\Waluty\Waluty\bin\Debug\Waluty.pdb
+D:\Programy\Ap\projekt-pa-jacekbrzozowski-master\Waluty\Waluty\obj\Debug\Waluty.csprojResolveAssemblyReference.cache
+D:\Programy\Ap\projekt-pa-jacekbrzozowski-master\Waluty\Waluty\obj\Debug\Waluty.Form1.resources
+D:\Programy\Ap\projekt-pa-jacekbrzozowski-master\Waluty\Waluty\obj\Debug\Waluty.Properties.Resources.resources
+D:\Programy\Ap\projekt-pa-jacekbrzozowski-master\Waluty\Waluty\obj\Debug\Waluty.csproj.GenerateResource.Cache
+D:\Programy\Ap\projekt-pa-jacekbrzozowski-master\Waluty\Waluty\obj\Debug\Waluty.csproj.CoreCompileInputs.cache
+D:\Programy\Ap\projekt-pa-jacekbrzozowski-master\Waluty\Waluty\obj\Debug\Waluty.exe
+D:\Programy\Ap\projekt-pa-jacekbrzozowski-master\Waluty\Waluty\obj\Debug\Waluty.pdb
